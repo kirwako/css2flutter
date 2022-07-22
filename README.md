@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://github.com/kirwa-KO/css2flutter.git/blob/main/logo/css2flutter.png" />
+  <img src="https://github.com/kirwa-KO/css2flutter/blob/main/logo/css2flutter.png" />
 </p>
 
 css2flutter is an interesting little project. I hope to find a way to convert css styles to flutter styles. I believe many web developers will like it. [https://css2flutter.com](https://css2flutter.com)
 
-![](https://github.com/kirwa-KO/css2flutter.git/blob/main/logo/map.png?raw=true)
+![](https://github.com/kirwa-KO/css2flutter/blob/main/logo/css2flutter.png?raw=true)
 
 ## Statement
 
