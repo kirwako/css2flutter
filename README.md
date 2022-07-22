@@ -3,9 +3,9 @@
 </p>
 
 css2flutter is an interesting little project. I hope to find a way to convert css styles to flutter styles. I believe many web developers will like it.
-[https://css2flutter.com](https://css2flutter.com)
+[https://css2flutter.com](https://www.css2flutter.com)
 
-![](https://github.com/kirwa-KO/css2flutter/blob/main/logo/map.png?raw=true)
+![https://css2flutter.com](https://github.com/kirwa-KO/css2flutter/blob/main/logo/map.png?raw=true)
 
 ## Statement
 
