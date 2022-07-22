@@ -25,7 +25,8 @@ I want to use `postcss` to do a lot of things, we can get a style attribute and 
 git clone https://github.com/kirwa-KO/css2flutter.git
 ```
 
-#### Install dependencies
+#### Install dependencies [recommended to use node version 16.x]
+
 ```bash
 npm i
 ```
