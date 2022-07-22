@@ -2,14 +2,14 @@
   <img src="https://github.com/kirwa-KO/css2flutter/blob/main/logo/css2flutter.png" />
 </p>
 
-css2flutter is an interesting little project. It's a way to convert css styles to flutter styles. I believe many web developers will like it.
+css2flutter is an interesting little project. It's a **way** to **convert** **css** styles to **flutter** styles. I believe many web **developers** will **like** it.
 [https://www.css2flutter.com](https://www.css2flutter.com)
 
 ![](https://github.com/kirwa-KO/css2flutter/blob/main/logo/map.png?raw=true)
 
 ## Statement
 
-For beginners, the flutter style is really hard to remember. I want to build a website that converts css styles to flutter style online. Maybe it will help those web developers get started quickly.
+For beginners, the **Flutter** style is really **hard** to remember. I want to build a website that **converts** **css** styles to **flutter** style online. Maybe it will **help** those **web developers** get started **quickly**.
 
 ### NOTE
 
