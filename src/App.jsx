@@ -13,9 +13,6 @@ function App() {
     <div className="App">
       <Logo />
       <OperatingArea />
-      <div className="container avatar-container">
-        <div id="avator">Hello World</div>
-      </div>
       <Footer />
     </div>
   );

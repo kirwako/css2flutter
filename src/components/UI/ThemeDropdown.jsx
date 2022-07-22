@@ -6,6 +6,7 @@ import { customStyles } from "../../constants/customStyles";
 const ThemeDropdown = ({ handleThemeChange, theme }) => {
   return (
     <Select
+    className="theme-dropdown"
       placeholder={`Select Theme`}
       // options={languageOptions}
       options={Object.entries(monacoThemes).map(([themeId, themeName]) => ({

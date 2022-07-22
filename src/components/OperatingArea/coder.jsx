@@ -8,7 +8,8 @@ const Coder = (props) => {
 
   return (
     <Editor
-      height="60vh"
+      // height="85vh"
+      className="coder-pad"
       width={`100%`}
       language={props.language}
       value={props.value}

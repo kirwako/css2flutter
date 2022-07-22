@@ -74,7 +74,7 @@ const OperatingArea = () => {
   };
 
   return (
-    <div className="container opearating-area-container">
+    <div className="opearating-area-container">
       <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} />
       <div className="opearating-area-row">
         <div span={12} className="coder-con">
@@ -101,6 +101,9 @@ const OperatingArea = () => {
             theme={theme.value}
             readOnly={true}
           />
+          {/* <div className="avatar-container">
+            <div id="avator">Hello World</div>
+          </div> */}
         </div>
       </div>
     </div>

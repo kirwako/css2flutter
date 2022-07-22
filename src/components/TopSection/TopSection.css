@@ -14,9 +14,9 @@
   width: 5rem;
   height: 5rem;
   z-index: 20;
-  fill: #000;
-  color: #fff;
-  mix-blend-mode: darken;
+  fill: white;
+  color: #1B2B34;
+  /* mix-blend-mode: darken; */
   position: absolute;
   right: 0;
   top: 0;
@@ -41,7 +41,7 @@
 }
 
 .top-section-navbar {
-  margin-top: 1.5rem;
+  margin-top: 24px;
   /* margin-bottom: 1.5rem; */
   display: flex;
   align-items: flex-end;

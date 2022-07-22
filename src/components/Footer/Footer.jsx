@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <p>
-          Developed with ❤️ by{" "}
+          Developed with <span role="img" aria-label="heart">❤️</span> by{" "}
           <a
             href="https://kirwako.com/"
             target="_blank"
@@ -16,25 +16,17 @@ const Footer = () => {
           </a>
         </p>
         <h1>Css2Flutter Convert css style to flutter style</h1>
-		<div>
-		[I am very 😀 about every coffee!]
-			<a
-          href="https://www.buymeacoffee.com/imranbaali"
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-          className="buy-coffe"
-        >
-          Buy me a coffee{" "}
-          <g-emoji
-            class="g-emoji"
-            alias="coffee"
-            fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png"
+        <div>
+          [I am very <span role="img" aria-label="happy">😀</span> about every coffee!]
+          <a
+            href="https://www.buymeacoffee.com/imranbaali"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="buy-coffe"
           >
-            ☕
-          </g-emoji>
-        </a>
-		</div>
-
+            Buy me a coffee <span role="img" aria-label="coffe">☕</span>
+          </a>
+        </div>
       </div>
       <div className="line" />
     </>

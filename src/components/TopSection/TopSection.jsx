@@ -1,7 +1,7 @@
 import React from "react";
 import "./TopSection.css";
 import GithubIcon from "./GithubIcon";
-import { ReactComponent as Logo } from "../../assets/icons/logo.svg";
+// import { ReactComponent as Logo } from "../../assets/icons/logo.svg";
 
 const TopSection = () => {
   return (
