@@ -2,7 +2,8 @@
   <img src="https://github.com/kirwa-KO/css2flutter/blob/main/logo/css2flutter.png" />
 </p>
 
-css2flutter is an interesting little project. I hope to find a way to convert css styles to flutter styles. I believe many web developers will like it. [https://css2flutter.com](https://css2flutter.com)
+css2flutter is an interesting little project. I hope to find a way to convert css styles to flutter styles. I believe many web developers will like it.
+[https://css2flutter.com](https://css2flutter.com)
 
 ![](https://github.com/kirwa-KO/css2flutter/blob/main/logo/map.png?raw=true)
 
@@ -20,7 +21,9 @@ I want to use `postcss` to do a lot of things, we can get a style attribute and 
 
 #### Clone the project
 
-`git clone https://github.com/kirwa-KO/css2flutter.git`
+```bash
+git clone https://github.com/kirwa-KO/css2flutter.git
+```
 
 #### Install dependencies
 ```bash
@@ -52,6 +55,9 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 ## License
-c2f is licensed under MIT license. View license. [LICENSE](https://github.com/kirwa-KO/css2flutter.git/blob/main/LICENSE)
+css2flutter is licensed under MIT license. View license. [LICENSE](https://github.com/kirwa-KO/css2flutter/blob/main/LICENSE)
 
+#### This package costs me time to make and maintain every time.
+[I am very 😀 about every coffee!]
 
+[buy me a coffee ☕](https://www.buymeacoffee.com/imranbaali)
