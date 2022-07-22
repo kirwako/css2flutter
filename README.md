@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/drawcall/c2f/master/logo/c2f.png" />
+  <img src="https://github.com/kirwa-KO/css2flutter.git/blob/main/logo/css2flutter.png" />
 </p>
 
-C2F is an interesting little project. I hope to find a way to convert css styles to flutter styles. I believe many web developers will like it. [https://drawcall.github.io/c2f/](https://drawcall.github.io/c2f/)
+css2flutter is an interesting little project. I hope to find a way to convert css styles to flutter styles. I believe many web developers will like it. [https://css2flutter.com](https://css2flutter.com)
 
-![](https://github.com/drawcall/c2f/blob/master/logo/map.png?raw=true)
+![](https://github.com/kirwa-KO/css2flutter.git/blob/main/logo/map.png?raw=true)
 
 ## Statement
 
@@ -20,13 +20,16 @@ I want to use `postcss` to do a lot of things, we can get a style attribute and 
 
 #### Clone the project
 
-`git clone https://github.com/drawcall/c2f.git`
+`git clone https://github.com/kirwa-KO/css2flutter.git`
+
+#### Install dependencies
+```bash
+npm i
+```
 
 #### Startup project
 
-```shell
-npm i
-
+```bash
 npm start
 ```
 
@@ -49,5 +52,6 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 ## License
-c2f is licensed under MIT license. View license. [https://github.com/drawcall/c2f/blob/master/LICENSE](https://github.com/drawcall/c2f/blob/master/LICENSE)
-# css2flutter
+c2f is licensed under MIT license. View license. [LICENSE](https://github.com/kirwa-KO/css2flutter.git/blob/main/LICENSE)
+
+
