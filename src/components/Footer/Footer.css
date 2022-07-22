@@ -14,8 +14,17 @@
 }
 
 .buy-coffe {
-	font-weight: 600;
-	color: #cb3837;
 	margin-left: 8px;
   z-index: 150;
+}
+
+.link,
+.buy-coffe {
+	font-weight: 600;
+	color: #cb3837;
+}
+
+.link:hover,
+.buy-coffe:hover {
+  color: #fff;
 }

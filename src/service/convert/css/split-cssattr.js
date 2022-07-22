@@ -24,7 +24,9 @@ const splitByMainStyle = (decls, mainStyle, subStyles = []) => {
   if (val) {
     const allStyle = getAllStyle(decls);
     setAvatarStyle(allStyle);
-    subStyles.forEach(style => addValToDecls(decls, style));
+    subStyles.forEach(style => {
+      return addValToDecls(decls, style)
+    });
     decls.remove(mainStyle);
   }
 

@@ -37,5 +37,7 @@
 	margin-left: 24px;
 }
 .avatar-container {
+	position: absolute;
+	top: -100vh;
 	margin-top: 1rem;
 }

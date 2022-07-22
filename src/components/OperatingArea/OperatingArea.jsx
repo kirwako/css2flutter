@@ -64,7 +64,7 @@ const OperatingArea = () => {
 
   const handleThemeChange = (th) => {
     const theme = th;
-    console.log("theme...", theme);
+    // console.log("theme...", theme);
 
     if (["light", "vs-dark"].includes(theme.value)) {
       setTheme(theme);
@@ -75,7 +75,10 @@ const OperatingArea = () => {
 
   return (
     <div className="opearating-area-container">
+      <div>
       <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} />
+      {/* <button>Convert to Flutter</button> */}
+      </div>
       <div className="opearating-area-row">
         <div span={12} className="coder-con">
           <div className="coder-title">
@@ -101,9 +104,9 @@ const OperatingArea = () => {
             theme={theme.value}
             readOnly={true}
           />
-          {/* <div className="avatar-container">
+          <div className="avatar-container">
             <div id="avator">Hello World</div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

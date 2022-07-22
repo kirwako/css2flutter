@@ -5,6 +5,7 @@ import splitCssAttr from "./split-cssattr";
 const parseCssDecls = root => {
   if (!root) return null;
 
+
   return new Promise(function (resolve, reject) {
     const decls = new Decls();
 
@@ -18,7 +19,6 @@ const parseCssDecls = root => {
         valueList: list
       });
     });
-
 
     setTimeout((decls) => {
       decls = splitCssAttr(decls);
