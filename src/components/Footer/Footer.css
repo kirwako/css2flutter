@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  /* background-color: red; */
+}
+.footer h1,
+.footer p {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #212529;
+  margin-bottom: 0;
+}
+
+.buy-coffe {
+	font-weight: 600;
+	color: #cb3837;
+	margin-left: 8px;
+}

@@ -1,0 +1,69 @@
+.line {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #ec4899,
+    #ef4444,
+    #eab308,
+    rgba(239, 68, 68, 0.81)
+  );
+}
+
+.top-section-container .github-corner svg {
+  width: 5rem;
+  height: 5rem;
+  z-index: 20;
+  fill: #000;
+  color: #fff;
+  mix-blend-mode: darken;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 0.56s;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-20deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+.top-section-navbar {
+  margin-top: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* .top-section-navbar div {
+  display: flex;
+  flex-direction: column;
+} */
+
+.top-section-navbar h1 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  color: #334155;
+  margin-bottom: 0;
+  /* margin-top: 1rem;
+  margin-bottom: 0.2rem; */
+}
+
+.top-section-navbar h1 {
+
+}

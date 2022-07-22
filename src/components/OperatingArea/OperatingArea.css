@@ -1,0 +1,30 @@
+.opearating-area-container .opearating-area-row {
+  display: flex;
+  gap: 16px;
+}
+
+.coder-con {
+  width: 50%;
+}
+
+.overflow-guard,
+.monaco-editor {
+  border-radius: 0.375rem;
+  box-shadow: 2px 5px 15px 0 rgb(0 0 0 / 8%);
+}
+
+.coder-title {
+	font-weight: 700;
+	font-size: 1.25rem;
+    line-height: 1.75rem;
+	color: #334155;
+	margin-top: 1.2rem;
+	margin-bottom: .2rem;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.avatar-container {
+	margin-top: 1rem;
+}
