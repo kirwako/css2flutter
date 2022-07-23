@@ -9,15 +9,18 @@ import "./OperatingArea.css";
 
 const cssDefaultValue = `
 .text-style {
-  background-color: #e0e0e0;
+  background-color: #1E293B;
   width: 320px;
-  height: 240px;
-  border:5px solid red;
+  height: 200px;
+  border:5px solid white;
   font: 900 24px Georgia;
-  padding: 2px 10px;
+  padding: 20px 22px;
   margin: 3px;
   border-radius: 10px;
   text-decoration: underline wavy red;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 `.trim();
 
@@ -29,6 +32,12 @@ const OperatingArea = () => {
   const [cssVal, setCssVal] = useState(cssDefaultValue);
   const [dartVal, setDartVal] = useState("");
   const [theme, setTheme] = useState("vs-dark");
+  const [showCssoutput, setShowCssoutput] = useState(false);
+
+  const showCssOutputHandler = () => {
+    console.log("showCssoutput", showCssoutput);
+    setShowCssoutput(_ => !showCssoutput);
+  }
 
   const convertAndUpdateDartCoder = async () => {
     const dartVal = await convert2Flutter(cssVal);
@@ -76,8 +85,8 @@ const OperatingArea = () => {
   return (
     <div className="opearating-area-container">
       <div>
-      <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} />
-      {/* <button>Convert to Flutter</button> */}
+        <ThemeDropdown handleThemeChange={handleThemeChange} showCssOutputHandler={showCssOutputHandler} theme={theme} />
+        {/* <button>Convert to Flutter</button> */}
       </div>
       <div className="opearating-area-row">
         <div span={12} className="coder-con">
@@ -104,7 +113,9 @@ const OperatingArea = () => {
             theme={theme.value}
             readOnly={true}
           />
-          <div className="avatar-container">
+          <div className="avatar-container" style={{
+            bottom: showCssoutput ? "10%" : "100vh",
+          }}>
             <div id="avator">Hello World</div>
           </div>
         </div>

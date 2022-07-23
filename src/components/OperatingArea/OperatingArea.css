@@ -38,6 +38,7 @@
 }
 .avatar-container {
 	position: absolute;
-	top: -100vh;
+	/* top: -100vh; */
+	right: 5%;
 	margin-top: 1rem;
 }
