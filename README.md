@@ -58,7 +58,8 @@ Your app is ready to be deployed!
 ## License
 css2flutter is licensed under MIT license. View license. [LICENSE](https://github.com/kirwa-KO/css2flutter/blob/main/LICENSE)
 
+## Support
 #### This package costs me time to make and maintain every time.
 [I am very 😀 about every coffee!]
 
-[buy me a coffee ☕](https://www.buymeacoffee.com/imranbaali)
+<a href="https://www.buymeacoffee.com/imranbaali" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
