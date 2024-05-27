@@ -36,13 +36,18 @@ const OperatingArea = () => {
 
   const showCssOutputHandler = () => {
     console.log("showCssoutput", showCssoutput);
-    setShowCssoutput(_ => !showCssoutput);
-  }
+    setShowCssoutput((_) => !showCssoutput);
+  };
 
   const convertAndUpdateDartCoder = useCallback(async () => {
     const dartVal = await convert2Flutter(cssVal);
     updateCoder({ dartVal });
   }, [cssVal, updateCoder]);
+
+  const updateCoder = useCallback(({ cssVal, dartVal }) => {
+    if (dartVal !== undefined && dartVal !== null) setDartVal(dartVal);
+    if (cssVal !== undefined && cssVal !== null) setCssVal(cssVal);
+  }, []);
 
   useEffect(() => {
     async function init() {
@@ -66,11 +71,6 @@ const OperatingArea = () => {
     updateCoder({ cssVal: value, dartVal: dartVal });
   };
 
-  const updateCoder = useCallback(({ cssVal, dartVal }) => {
-    if (dartVal !== undefined && dartVal !== null) setDartVal(dartVal);
-    if (cssVal !== undefined && cssVal !== null) setCssVal(cssVal);
-  }, []);
-
   const handleThemeChange = (th) => {
     const theme = th;
     // console.log("theme...", theme);
@@ -85,7 +85,11 @@ const OperatingArea = () => {
   return (
     <div className="opearating-area-container">
       <div>
-        <ThemeDropdown handleThemeChange={handleThemeChange} showCssOutputHandler={showCssOutputHandler} theme={theme} />
+        <ThemeDropdown
+          handleThemeChange={handleThemeChange}
+          showCssOutputHandler={showCssOutputHandler}
+          theme={theme}
+        />
         {/* <button>Convert to Flutter</button> */}
       </div>
       <div className="opearating-area-row">
@@ -113,9 +117,12 @@ const OperatingArea = () => {
             theme={theme.value}
             readOnly={true}
           />
-          <div className="avatar-container" style={{
-            bottom: showCssoutput ? "10%" : "100vh",
-          }}>
+          <div
+            className="avatar-container"
+            style={{
+              bottom: showCssoutput ? "10%" : "100vh",
+            }}
+          >
             <div id="avator">Hello World</div>
           </div>
         </div>
