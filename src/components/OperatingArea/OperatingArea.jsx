@@ -39,15 +39,15 @@ const OperatingArea = () => {
     setShowCssoutput((_) => !showCssoutput);
   };
 
-  const convertAndUpdateDartCoder = useCallback(async () => {
-    const dartVal = await convert2Flutter(cssVal);
-    updateCoder({ dartVal });
-  }, [cssVal, updateCoder]);
-
   const updateCoder = useCallback(({ cssVal, dartVal }) => {
     if (dartVal !== undefined && dartVal !== null) setDartVal(dartVal);
     if (cssVal !== undefined && cssVal !== null) setCssVal(cssVal);
   }, []);
+
+  const convertAndUpdateDartCoder = useCallback(async () => {
+    const dartVal = await convert2Flutter(cssVal);
+    updateCoder({ dartVal });
+  }, [cssVal, updateCoder]);
 
   useEffect(() => {
     async function init() {
