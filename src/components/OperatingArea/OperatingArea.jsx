@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Coder from "./coder";
 import convert2Flutter from "../../service/convert/converter";
 import { defineTheme } from "../../lib/defineTheme";
@@ -39,10 +39,10 @@ const OperatingArea = () => {
     setShowCssoutput(_ => !showCssoutput);
   }
 
-  const convertAndUpdateDartCoder = async () => {
+  const convertAndUpdateDartCoder = useCallback(async () => {
     const dartVal = await convert2Flutter(cssVal);
     updateCoder({ dartVal });
-  };
+  }, [cssVal, updateCoder]);
 
   useEffect(() => {
     async function init() {
@@ -59,17 +59,17 @@ const OperatingArea = () => {
       await convertAndUpdateDartCoder();
     }
     init();
-  }, []);
+  }, [convertAndUpdateDartCoder]);
 
   const codeChangeHadler = async (value) => {
     const dartVal = await convert2Flutter(value);
     updateCoder({ cssVal: value, dartVal: dartVal });
   };
 
-  const updateCoder = ({ cssVal, dartVal }) => {
+  const updateCoder = useCallback(({ cssVal, dartVal }) => {
     if (dartVal !== undefined && dartVal !== null) setDartVal(dartVal);
     if (cssVal !== undefined && cssVal !== null) setCssVal(cssVal);
-  };
+  }, []);
 
   const handleThemeChange = (th) => {
     const theme = th;
