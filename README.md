@@ -3,9 +3,9 @@
 </p>
 
 css2flutter is an interesting little project. It's a **way** to **convert** **css** styles to **flutter** styles. I believe many web **developers** will **like** it.
-[https://www.c2f.kirwako.com](https://www.c2f.kirwako.com)
+[https://www.c2f.kirwako.com](https://www.c2f.kirwako.dev)
 
-![](https://github.com/kirwa-KO/css2flutter/blob/main/logo/map.png?raw=true)
+![](https://github.com/kirwako/css2flutter/blob/main/logo/map.png?raw=true)
 
 ## Statement
 
